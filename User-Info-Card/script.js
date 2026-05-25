@@ -48,6 +48,9 @@ function cardDisplay(){
             </div>
             
         </div> 
-
-    `
+     `
+    if(name === "" || email === "" || address === "" || profession === ""){
+        alert("Fill the input fields Completely");
+        card.style.display = "none";
+    }
 }
